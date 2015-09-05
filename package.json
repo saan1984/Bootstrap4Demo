@@ -1,8 +1,13 @@
 {
   "jspm": {
-    "directories": {},
     "dependencies": {
+      "css": "github:systemjs/plugin-css@^0.1.16",
       "twbs/bootstrap": "github:twbs/bootstrap@4.0.0-alpha"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.22",
+      "babel-runtime": "npm:babel-runtime@^5.8.20",
+      "core-js": "npm:core-js@^1.1.0"
     }
   }
 }
